@@ -17,7 +17,7 @@ function equalN(x, n) {
     const nIsInteger = Number.isInteger(n) ? true : false;
     if (!nIsInteger) {
         // Throw an exception if `n` is not an integer
-        throw new Error(`Input n must strictly be an integer, got ${n} instead.`);
+        throw new Error(`Input n must strictly be an integer, got ${n} type ${typeof n} instead.`);
     }
 
     // Compare `x` and `n` for strict equality using a ternary operator

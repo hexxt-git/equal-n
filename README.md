@@ -71,4 +71,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check out the [repository on GitHub](https://github.com/hexxt-git/equalN).
+Contributions, issues, and feature requests are welcome! Feel free to check out the [repository on GitHub](https://github.com/hexxt-git/equal-n).

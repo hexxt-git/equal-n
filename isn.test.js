@@ -20,8 +20,8 @@ describe('equalN function', () => {
 
   // Test when n is not an integer
   test('throws an error when n is not an integer', () => {
-    expect(() => equalN(5, 5.5)).toThrowError('Input n must strictly be an integer, got 5.5 instead.');
-    expect(() => equalN(5, '5')).toThrowError('Input n must strictly be an integer, got 5 instead.');
+    expect(() => equalN(5, 5.5)).toThrowError('Input n must strictly be an integer, got 5.5 type number instead.');
+    expect(() => equalN(5, '5')).toThrowError('Input n must strictly be an integer, got 5 type string instead.');
   });
 
   // Test when both x and n are not integers
