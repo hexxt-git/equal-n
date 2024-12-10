@@ -1,7 +1,7 @@
 {
   "name": "isn",
   "version": "1.0.0",
-  "description": "A simple utility function for validating if two numbers are strictly equal, with robust error handling for non-integer inputs.",
+  "description": "A robust utility function for validating if two numbers are strictly equal, with robust error handling for non-integer inputs.",
   "main": "index.js",
   "scripts": {
     "test": "jest"

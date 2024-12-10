@@ -1,6 +1,6 @@
 # isn
 
-**A simple utility function for validating if two numbers are strictly equal, with robust error handling for non-integer inputs.**
+**A robust utility function for validating if two numbers are strictly equal, with robust error handling for non-integer inputs.**
 
 ---
 
