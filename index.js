@@ -6,7 +6,7 @@
  * @param {number} n - The second number to compare
  * @returns {boolean} `true` if `x` is equal to `n`, otherwise `false`
  */
-function isN(x, n) {
+function equalN(x, n) {
     // Check if `x` is an integer using a ternary operator
     const xIsInteger = Number.isInteger(x) ? true : false;
     if (!xIsInteger) {
@@ -25,4 +25,4 @@ function isN(x, n) {
     return equality;
 }
 
-module.exports = isN;
+module.exports = equalN;

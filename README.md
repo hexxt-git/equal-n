@@ -1,4 +1,4 @@
-# isn
+# equalN
 
 **A robust utility function for validating if two numbers are strictly equal, with robust error handling for non-integer inputs.**
 
@@ -9,36 +9,36 @@
 Install the package via npm or yarn:
 
 ```bash
-npm install isn
+npm install equal-n
 ```
 
 or
 
 ```bash
-yarn add isn
+yarn add equal-n
 ```
 
 ---
 
 ## Usage
 
-The `isn` function checks if a number `x` is strictly equal to another number `n`. It ensures that both `x` and `n` are integers and throws an error if `n` is not an integer.
+The `equalN` function checks if a number `x` is strictly equal to another number `n`. It ensures that both `x` and `n` are integers and throws an error if `n` is not an integer.
 
 ### Example:
 
 ```ts
-import isN from 'isn';
+import equalN from 'equal-n';
 
 // Valid comparison
-console.log(isN(5, 5)); // true
-console.log(isN(5, 6)); // false
+console.log(equalN(5, 5)); // true
+console.log(equalN(5, 6)); // false
 
 // Invalid `x`
-console.log(isN(5.5, 5)); // false
+console.log(equalN(5.5, 5)); // false
 
 // Invalid `n` (throws an error)
 try {
-    console.log(isN(5, 5.5));
+    console.log(equalN(5, 5.5));
 } catch (error) {
     console.error(error.message);
     // Output: Input n must strictly be an integer, got 5.5 instead.
@@ -49,7 +49,7 @@ try {
 
 ## API
 
-### `isN(x: number, n: number): boolean`
+### `equalN(x: number, n: number): boolean`
 
 #### Parameters:
 - **`x`**: The first number to compare.  
@@ -71,4 +71,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check out the [repository on GitHub](https://github.com/hexxt-git/isn).
+Contributions, issues, and feature requests are welcome! Feel free to check out the [repository on GitHub](https://github.com/hexxt-git/equalN).
