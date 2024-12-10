@@ -2,13 +2,13 @@
   "name": "equal-n",
   "version": "1.2.0",
   "description": "A robust utility function for validating if two numbers are strictly equal, with robust error handling for non-integer inputs.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hexxt-git/equal-n"
+    "url": "git+https://github.com/hexxt-git/equal-n.git"
   },
   "keywords": [
     "equal-n",

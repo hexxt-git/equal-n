@@ -1,4 +1,4 @@
-const equalN = require('./index');
+const equalN = require('../src/index');
 
 describe('equalN function', () => {
   
