@@ -1,0 +1,33 @@
+{
+  "name": "isn",
+  "version": "1.0.0",
+  "description": "A simple utility function for validating if two numbers are strictly equal, with robust error handling for non-integer inputs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexxt-git/isn"
+  },
+  "keywords": [
+    "isn",
+    "integer",
+    "number",
+    "equality",
+    "check",
+    "is-equal",
+    "safety",
+    "security"
+  ],
+  "author": "hexxt-git",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
